@@ -1,3 +1,4 @@
+cVim--help
 ------
 
 cVim([GitHub:1995eaton/chromium-vim)](https://github.com/1995eaton/chromium-vim)，ViChrome和vimium都是Chrome的Vim扩展，使用了大量的快捷键，其实就是使用键盘来操作Chrome浏览器的行为，对geeker来说是极好的。ViChrome更切合vim的默认键，但是和chrome本身的某些默认键有冲突，会造成习惯上的差别，vimium简单点，cVim则更加强大。它支持自定义搜索引擎，像谷歌/IMDB/维基/亚马逊/Duckduckgo/雅虎/Bing搜索等，历史与书签搜索，插入符号/可视模式，有效链接提示，自定义键盘映射，正则表达式搜索页面用突出，平滑滚动等。
@@ -23,27 +24,27 @@ cVim([GitHub:1995eaton/chromium-vim)](https://github.com/1995eaton/chromium-vim)
 |`gi`|	定位到第一个输入框|	goToInput|
 |`gI`	|转到最后集中输入框|	goToLastInput|
 |`zz`|	中心页面，当前的搜索匹配（中）|	centerMatchH|
-|`zt`	|中心页面，当前的搜索匹配（上）|	centerMatchT|
-|`zb`	|中心页面，当前的搜索匹配（下）|	centerMatchB|
+|`zt`|中心页面，当前的搜索匹配（上）|	centerMatchT|
+|`zb`|中心页面，当前的搜索匹配（下）|	centerMatchB|
 |Link Hints		
-|`f`	|在当前标签页中打开链接|	createHint|
-|`F`	|在新标签页中打开链接|	createTabbedHint|
-|`unmapped`|	在新标签页中打开链接（主动）|createActiveTabbedHint|
-|`W`|	在新窗口中打开链接|	createHintWindow|
-|`A`|	重复最后一个命令|	openLastHint|
+|`f`|在当前标签页中打开链接|	createHint|
+|`F`|在新标签页中打开链接|	createTabbedHint|
+|`unmapped`|在新标签页中打开链接（主动）|createActiveTabbedHint|
+|`W`|在新窗口中打开链接|	createHintWindow|
+|`A`|重复最后一个命令|	openLastHint|
 |`q`|触发悬停事件(鼠标悬停+mouseenter)|createHoverHint|
 |`Q	`|触发悬停事件(鼠标移出+鼠标离开)|	createUnhoverHint|
-|`mf`	|打开多个链接|	createMultiHint|
-|`unmapped`	|外部编辑器编辑文本	|createEditHint|
-|`unmapped`	|调用代码块的链接作为第一个参数|createScriptHint(`<FUNCTION_NAME>`)|
+|`mf`|打开多个链接|	createMultiHint|
+|`unmapped`|外部编辑器编辑文本	|createEditHint|
+|`unmapped`|调用代码块的链接作为第一个参数|createScriptHint(`<FUNCTION_NAME>`)|
 |`mr`	|逆转影像搜索的多个链接	|multiReverseImage|
 |`my`|	抽出多个链接（打开与P链接列表）|	multiYankUrl|
 |`gy`	|复制URL链接到剪贴板|	yankUrl|
-|`gr`	|逆转图片搜索（google图片）|	reverseImage|
-|`;	`|更改链接重点提示	|
+|`gr`	|逆转图片搜索（google图片|reverseImage|
+|`;	`|更改链接重点提示|
 |QuickMarks		
 |`M<*>`|	创建快速标记 <*>|	addQuickMark|
-|`go<*>`	|打开快速标记 <*> 在当前页面|	openQuickMark|
+|`go<*>`|打开快速标记 <*> 在当前页面|	openQuickMark|
 |`gn<*>`|在新窗口中打开快速标记<*>`<N>`次|openQuickMarkTabbed|Miscellaneous		
 |`a`|	相当于 ":tabnew google "|	:tabnew google|
 |`.`|	重复上一个命令|	repeatCommand||
