@@ -144,7 +144,7 @@ cVim([GitHub:1995eaton/chromium-vim)](https://github.com/1995eaton/chromium-vim)
 ##Command Mode（命令模式）
 
 |Command|	Description|
-|:----|:----|:----|
+|:----|:----|
 |`:tabnew (autocomplete)`	|打开一个新标签并且输入完成搜索|
 |`:new (autocomplete)`|	打开一个新窗口并且输入完成搜索|
 |`:open (autocomplete)`|	打开输入/ URL完成/谷歌搜索|
